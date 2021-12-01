@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table {
+    width: 500px;
+    height: 100px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+table, th, td {
+    border: 1px solid black;
+}
+#register{
+    content: "";
+    width: 100%;
+    background: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.register{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.65);
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+.registeruser{
+    position: absolute;
+    width: 400px;
+    height: 630px;
+    background-color: rgba(0,0,0,0.65);
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    top: 45%;
+    left: 50%;
+}
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    outline: none;
+    color: white;
+    display: 16px;
+    width: 100%;
+    height: 26px;
+}
+.register p,h2{
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+}
+.register h2{
+    font-size: 30px;
+}
+.register p{
+    margin: 6px 0px;
+}
+.register a{
+    margin: 118px;
+    color: white;
+    font-size: 16px;
+}
+.register a:hover{
+    color: rgb(61, 115, 177);
+}
+.registeruser input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    outline: none;
+    color: white;
+    display: 16px;
+    width: 100%;
+    height: 26px;
+}
+.registeruser p,h2{
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+}
+.registeruser h2{
+    font-size: 30px;
+}
+.registeruser p{
+    margin: 6px 0px;
+}
+.registeruser a{
+    /* margin: 92px; */
+    color: white;
+    font-size: 16px;
+}
+.registeruser a:hover{
+    color: rgb(61, 115, 177);
+}
+::placeholder{
+    color: white;
+}
+#submit{
+    margin: 10px 0px;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+}
+#submit:hover{
+    background-color: white;
+    color: black;
+}
+.show{
+    margin: 10px 5px;
+    background-color: rgb(69, 69, 226);
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+}
+.show:hover{
+    background-color: white;
+    color: black;
+}
+.complaint{
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+}
+.content1{
+    display: flex;
+}
+.content1 p{
+    margin: 20px;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+*{
+	
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style:none;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
